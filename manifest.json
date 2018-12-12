@@ -1,0 +1,15 @@
+{
+    "name": "Easy on Eyes",
+    "version": "1.0.0",
+    "description": "A Chrome extension to change the color scheme to night mode",
+    "manifest_version": 2,
+    "browser_action" : {
+        "default_icon": "eye.png",
+        "default_popup": "popup.html",
+        "default_title" : "Easy on Eyes"
+    },
+    "permissions": [
+        "activeTab",
+        "https://talk.fresco.me/"
+    ]
+}
